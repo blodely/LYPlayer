@@ -1,0 +1,14 @@
+source 'https://github.com/blodely/LYSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target 'LYPlayer_Example' do
+	pod 'LYPlayer', :path => '../'
+
+	target 'LYPlayer_Tests' do
+		inherit! :search_paths
+
+
+	end
+end
