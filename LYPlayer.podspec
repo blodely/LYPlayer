@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'LYPlayer'
-	s.version          = '0.1.0'
+	s.version          = '0.1.1'
 	s.summary          = 'LYPlayer.'
 
 	s.description      = <<-DESC
@@ -24,7 +24,7 @@ LYPlayer. Video player.
 
 	s.social_media_url = 'https://weibo.com/blodely'
 
-	s.ios.deployment_target = '9.0'
+	s.ios.deployment_target = '8.2'
 
 	s.source_files = 'LYPlayer/Classes/**/*'
 
@@ -36,6 +36,6 @@ LYPlayer. Video player.
 	# s.frameworks = 'UIKit', 'MapKit'
 	# s.dependency 'AFNetworking', '~> 2.3'
 
-	s.frameworks = 'UIKit'
+	s.frameworks = 'UIKit', 'AVFoundation', 'AVKit'
 
 end
