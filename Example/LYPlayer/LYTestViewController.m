@@ -7,13 +7,21 @@
 //
 
 #import "LYTestViewController.h"
+#import <LYPlayer/LYPlayer.h>
 
-@interface LYTestViewController () {}
+@interface LYTestViewController () {
+
+	__weak IBOutlet UIButton *btnPlayer;
+}
 @end
 
 @implementation LYTestViewController
 
 // MARK: - ACTION
+
+- (IBAction)playLocalVideo:(UIButton *)sender {
+	
+}
 
 // MARK: - INIT
 
