@@ -1,18 +1,25 @@
 //
 //  LYAppDelegate.m
-//  LYPlayer
+//  LYPLAYER | blodely | http://luoyu.space
 //
-//  Created by blodely on 03/17/2017.
-//  Copyright (c) 2017 blodely. All rights reserved.
+//  CREATED BY LUO YU ON 2017-03-17, INDIE.LUO@GMAIL.COM.
+//  COPYRIGHT (C) 2017 LUO YU. ALL RIGHTS RESERVED.
 //
 
 #import "LYAppDelegate.h"
+#import "LYTestViewController.h"
 
 @implementation LYAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+	
+	_window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+	
+	_window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LYTestViewController alloc] init]];
+	
+	[_window makeKeyAndVisible];
+	
     return YES;
 }
 

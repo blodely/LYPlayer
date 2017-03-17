@@ -1,15 +1,13 @@
 //
-//  LYAppDelegate.h
+//  LYPlayer.h
 //  LYPLAYER | blodely | http://luoyu.space
 //
 //  CREATED BY LUO YU ON 2017-03-17, INDIE.LUO@GMAIL.COM.
 //  COPYRIGHT (C) 2017 LUO YU. ALL RIGHTS RESERVED.
 //
 
-@import UIKit;
+#ifndef LYPlayer_h
+#define LYPlayer_h
 
-@interface LYAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
-@end
+#endif /* LYPlayer_h */
