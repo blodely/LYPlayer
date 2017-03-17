@@ -8,12 +8,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LYPlayer is available through [CocoaPods](http://cocoapods.org). To install
+LYPlayer is available through Private-Cocoapods [LYSpecs](https://github.com/blodely/LYSpecs). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "LYPlayer"
 ```
+
+## Design
+
+![arc](Docs/img/media-playback-figure.jpg)
 
 ## Author
 
