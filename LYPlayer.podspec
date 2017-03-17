@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
 
 	s.description      = <<-DESC
 LYPlayer. Video player.
+
+0.1.0 initial project.
 					   DESC
 
 	s.homepage         = 'https://github.com/blodely/LYPlayer'

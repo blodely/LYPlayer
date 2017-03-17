@@ -8,16 +8,25 @@
 
 #import "LYTestViewController.h"
 
-@interface LYTestViewController ()
-
+@interface LYTestViewController () {}
 @end
 
 @implementation LYTestViewController
-	
+
+// MARK: - ACTION
+
+// MARK: - INIT
+
 - (instancetype)init {
 	if (self = [super initWithNibName:@"LYTestViewController" bundle:[NSBundle mainBundle]]) {
 	}
 	return self;
+}
+
+// MARK: VIEW LIFE CYCLE
+
+- (void)loadView {
+	[super loadView];
 }
 
 - (void)viewDidLoad {
@@ -25,9 +34,19 @@
 	// DO ANY ADDITIONAL SETUP AFTER LOADING THE VIEW FROM ITS NIB.
 }
 
+// MARK: MEMORY MANAGEMENT
+
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// DISPOSE OF ANY RESOURCES THAT CAN BE RECREATED.
 }
+
+// MARK: - METHOD
+
+// MARK: PRIVATE METHOD
+
+// MARK: - DELEGATE
+
+// MARK: - NOTIFICATION
 
 @end
