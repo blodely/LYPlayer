@@ -8,7 +8,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LYPlayer is available through Private-Cocoapods [LYSpecs](https://github.com/blodely/LYSpecs). To install
+LYPlayer is available through Private-Cocoapods [LYSpecs](https://github.com/blodely/LYSpecs). 
+
+Add with:
+
+```
+pod repo add LYSpecs https://github.com/blodely/LYSpecs.git
+```
+
+To install
 it, simply add the following line to your Podfile:
 
 ```ruby
